@@ -123,30 +123,20 @@ body {
     margin-left: 12rem;
   }
   
-  .resources h2 {
-    background-color: #005f7f;
-    color: white;
-    padding: 10px;
-    margin: -20px -20px 20px -20px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    text-align: center;
-  }
-  
-  .resources ul {
+  .card ul {
     padding-top: 80px;
   }
   
-  .resources li {
+  .card li {
     margin-bottom: 10px;
   }
   
-  .resources a {
+  .card a {
     color: #005f7f;
     text-decoration: none;
   }
   
-  .resources a:hover {
+  .card a:hover {
     text-decoration: underline;
   }
   
@@ -159,5 +149,5 @@ body {
   }
 
   #lastModified {
-    color: peru; /* Change this color to your preferred one */
+    color: orange
   }
