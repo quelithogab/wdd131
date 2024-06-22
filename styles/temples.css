@@ -106,3 +106,10 @@ footer {
     margin-top: 2rem;
     font-size: 0.875rem;
 }
+
+/* Media Query to show the menu button on small screens */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
