@@ -11,6 +11,11 @@
 
     menuToggle.addEventListener('click', () => {
         nav.classList.toggle('open');
+        toggleMenuButton();
     });
+
+    function toggleMenuButton() {
+        menuToggle.classList.toggle('open');
+    }
 });
 

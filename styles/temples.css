@@ -32,12 +32,20 @@ h1 {
     display: none;
 }
 
-.hamburger, .close {
+.hamburger {
     display: inline-block;
 }
 
 .close {
     display: none;
+}
+
+.menu-toggle.open .hamburger {
+    display: none;
+}
+
+.menu-toggle.open .close {
+    display: inline-block;
 }
 
 nav ul {
