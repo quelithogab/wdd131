@@ -116,7 +116,7 @@ footer {
 }
 
 /* Media Query to show the menu button on small screens */
-@media (max-width: 768px) {
+@media (max-width: 511px) {
     .menu-toggle {
         display: block;
     }
