@@ -1,13 +1,13 @@
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .container {
         flex-direction: column;
-        align-items: stretch;
+        /* align-items: stretch; */
         border-bottom: 15px solid darkgreen;
     }
 
     .data, .weather {
         position: static;
-        width: auto;
+        /* width: auto; */
         margin: 10px;
         padding: 15px;
         text-align: center;
@@ -28,6 +28,7 @@
     }
 
     .weather img {
+        width: 200px;
         position: static;
         margin: 0 auto 15px;
     }
