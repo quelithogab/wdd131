@@ -1,66 +1,79 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 header {
     background-color: #b22222;
+    padding: 20px;
+}
+
+header h1 {
     color: white;
-    width: 100%;
     text-align: center;
-    padding: 20px 0;
+    font-size: 2em;
 }
 
 .container {
-    background-color: white;
-    border: 2px solid #d3d3d3;
-    width: 80%;
-    /* max-width: 800px; */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column;
+    border-top: 15px solid darkgreen;
     align-items: center;
-    position: relative;
-}
-
-.container img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    justify-content: center;
 }
 
 .data, .weather {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-    margin-bottom: 20px;
+    opacity: 0.9;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+   box-shadow: 0 0 5px solid black;
+   position: absolute;
+}
+
+.data {
+    top: 25%;
+    left: 20px;
+}
+
+.weather {
+    bottom: -60%;
+    right: 20px;
+}
+
+.weather img {
+    position: absolute;
+    width: 30px;
+    margin-left: 120px;
+    margin-top: -50px;
 }
 
 .data h2, .weather h2 {
     background-color: green;
+    color: white;
     margin: 5px 25px -8px -25px;
+    padding: 10px 10px 10px 15px;
 }
 
-/* .weather {
-    background-color: #e0ffe0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-} */
+picture {
+    display: block;
+    width: 100%;
+}
+
+picture img {
+    display: block;
+    height: auto;
+    width: 100%;  
+}
 
 footer {
     background-color: #b22222;
     text-align: center;
-    width: 100%;
     padding: 10px;
     font-size: 14px;
-    color: gray;
+    color: white;
 }
+
+
+

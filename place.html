@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beautiful Place</title>
     <meta name="description" content="Information about the country I currently live">
     <meta name="author" content="Quelitho Gabriel">
     <link rel="stylesheet" href="week03/styles/place.css">
@@ -17,7 +17,13 @@
 
    <main>
     <div class="container">
-        <img src="images/haiti-temple1.jpg" alt="Temple">
+        <!-- <img src="images/haiti-temple1.jpg" alt="Temple"> -->
+        <picture>
+            <source srcset="images/haiti-temple1.webp" media="(min-width: 1000px)" type="images/web">
+            <source srcset="images/haiti-temple1.webp" media="(min-width: 550px)" type="images/web">
+            <img src="images/haiti-temple1.webp" alt="Temple" width="400" height="200">
+        </picture>
+
         <div class="data">
             <h2>Data</h2>
             <p><strong>Area:</strong> 587,041 sq km</p>
