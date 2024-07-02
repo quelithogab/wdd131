@@ -19,9 +19,9 @@
     <div class="container">
         <!-- <img src="images/haiti-temple1.jpg" alt="Temple"> -->
         <picture>
-            <source srcset="images/haiti-temple1.webp" media="(min-width: 1000px)" type="images/web">
-            <source srcset="images/haiti-temple1.webp" media="(min-width: 550px)" type="images/web">
-            <img src="images/haiti-temple1.webp" alt="Temple" width="400" height="200">
+            <source srcset="images/haiti.webp" media="(min-width: 1000px)" type="images/web">
+            <source srcset="images/haiti.webp" media="(min-width: 550px)" type="images/web">
+            <img src="images/haiti.webp" alt="Haiti" width="400" height="200">
         </picture>
 
         <div class="data">
@@ -38,10 +38,10 @@
         <div class="weather">
             <h2>Weather</h2>
             <img src="images/weather.svg" alt="Weather">
-            <p><strong>Temperature:</strong> 10°C</p>
-            <p><strong>Conditions:</strong> Partly Cloudy</p>
-            <p><strong>Wind:</strong> 5 km/h</p>
-            <p><strong>Wind Chill:</strong> 9.8°C</p>
+            <p><strong>Temperature:</strong> <span id="temperature">loading...</span></p>
+            <p><strong>Conditions:</strong> <span id="Conditions">loading...</span></p>
+            <p><strong>Wind-Speed:</strong> <span id="windSpeed">loading...</span></p>
+            <p><strong>Wind Chill:</strong> <span id="windChill">loading...</span></p>
         </div>
     </div>
    </main>

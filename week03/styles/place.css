@@ -43,6 +43,12 @@ header h1 {
     right: 20px;
 }
 
+.weather h2::after {
+    content: url('images/weather.svg');
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .weather img {
     position: absolute;
     width: 30px;
