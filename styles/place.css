@@ -10,32 +10,39 @@ body {
 :root {
     --heading-font: 'Marhey', sans-serif;
     --paragraph-font: "Gabriela", serif;
+    --primary-color: #b22222;
+    --secondary-color: darkgreen;
+    --text-color: black;
+    --background-color: white;
+    --opacity-level: 0.8;
+
 }
 
 header {
-    background-color: #b22222;
+    background-color: var(--primary-color);
     padding: 20px;
 }
 
 header h1 {
-    color: white;
+    font-family: var(--heading-font);
+    color: var(--background-color);
     text-align: center;
     font-size: 2em;
 }
 
 .container {
     display: flex;
-    border-top: 15px solid darkgreen;
+    border-top: 15px solid var(--secondary-color);
     align-items: center;
     justify-content: center;
 }
 
 .data, .weather {
-    opacity: 0.9;
-    background-color: white;
+    font-family: var(--paragraph-font);
+    opacity: var(--opacity-level);
+    background-color: var(--background-color);
     padding: 10px;
     margin: 20px;
-    /* box-shadow: 0 0 5px solid black; */
     position: absolute;
 }
 
@@ -46,7 +53,6 @@ header h1 {
 
 .weather {
     top: 600px;
-    /* bottom: -60%; */
     right: 20px;
 }
 
@@ -64,8 +70,9 @@ header h1 {
 }
 
 .data h2, .weather h2 {
-    background-color: green;
-    color: white;
+    font-family: var(--heading-font);
+    background-color: var(--secondary-color);
+    color: var(--background-color);
     margin: 5px 25px -8px -25px;
     padding: 10px 10px 10px 15px;
 }
@@ -82,11 +89,11 @@ picture img {
 }
 
 footer {
-    background-color: #b22222;
+    background-color: var(--primary-color);
     text-align: center;
     padding: 10px;
     font-size: 14px;
-    color: white;
+    color: var(--background-color);
 }
 
 
