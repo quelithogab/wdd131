@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Marhey:wght@300..700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     
+}
+
+:root {
+    --heading-font: 'Marhey', sans-serif;
+    --paragraph-font: "Gabriela", serif;
 }
 
 header {
@@ -28,7 +35,7 @@ header h1 {
     background-color: white;
     padding: 10px;
     margin: 20px;
-    box-shadow: 0 0 5px solid black;
+    /* box-shadow: 0 0 5px solid black; */
     position: absolute;
 }
 
