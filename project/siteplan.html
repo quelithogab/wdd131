@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Beverage Shop</title>
+    <meta name="description" content="Food and Beverage Final project it content informations about the products and prices">
+    <meta name="author" content="Quelitho Gabriel">
+    <!-- Google Font preconnect links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <script src="scripts/siteplan.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Food & Beverage Shop</h1>
+        <img src="images/loogofbs.png" alt="logo">
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span class="hamburger">&#9776;</span>
+            <span class="close">&times;</span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="siteplan.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <!-- <li><a href="orders.html">Order</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="images/homefbs.jpg" alt="Food & Beverage Shop" class="hero-image">
+            <h2>Welcome to Our Shop</h2>
+            <p>At Food & Beverage Shop, we offer a wide range of high-quality food and beverage products. Our goal is to provide fresh and delicious items to our customers. We pride ourselves on excellent customer service and a commitment to sustainability.</p>
+        </section>
+         <!-- Newsletter Sign-up Form -->
+        <div class="newsletter-form">
+            <h3>Sign up for our newsletter</h3>
+            <form action="subscribe.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required><br><br>
+                <input type="email" name="email" placeholder="Your Email" required><br><br>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather.svg" alt="Weather">
+                <p><strong>Temperature:</strong> <span id="temperature">loading...</span></p>
+                <p><strong>Conditions:</strong> <span id="Conditions">loading...</span></p>
+                <p><strong>Wind-Speed:</strong> <span id="windSpeed">loading...</span></p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">loading...</span></p>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ⚽ Quelitho Gabriel  ⚽ Haiti  ✔</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

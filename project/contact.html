@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Food & Beverage Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <script src="scripts/siteplan.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Food & Beverage Shop</h1>
+        <img src="images/loogofbs.png" alt="logo">
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span class="hamburger">&#9776;</span>
+            <span class="close">&times;</span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="siteplan.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <!-- <li><a href="orders.html">Order</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Send Us a Message</legend>
+            <form action="submit_contact">
+                <label for="name">Enter Your name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Your Email Addres:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <!-- <p>Purpose of the message:</p> -->
+                <form action="review.html" method="get">
+                    <div>
+                      <label for="purposeMessage">Purpose of the message:</label><br>
+                      <select id="purposeMessage" name="purposeMessage" required>
+                        <option value="" disabled selected>Select a Purpose ...</option>
+                        <!-- Options populated dynamically via JavaScript -->
+                      </select>
+                    </div>
+                </form> 
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+        
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+        
+                <button type="submit">Send</button>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ⚽ Quelitho Gabriel  ⚽ Haiti  ✔</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
