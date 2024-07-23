@@ -236,7 +236,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 4px;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 #cart p {
@@ -293,11 +293,11 @@ select {
 button[type="submit"] {
     font-family: var(--paragraph-font);
     background-color: #0056b3;
-    color: #ffffffec;
+    color: white;
     border-radius: 5px;
     width: 150px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
 }
 
