@@ -225,15 +225,19 @@ h2 {
     font-size: 20px;
 }
 
+input[type="number"] {
+    width: 70px;
+}
+
 button {
     font-family: var(--paragraph-font);
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 15px;
     cursor: pointer;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 #cart p {
@@ -314,15 +318,19 @@ footer {
 }
 
 
-@media only screen and (min-width: 1090px) {
+@media only screen and (min-width: 512px) {
     nav ul {
         flex-direction: row;
         justify-content: right;
-        display: flex;
     }
 
     nav li {
         margin: 0 1rem;
+    }
+    
+    nav ul {
+        display: flex;
+
     }
 
     .weather {
