@@ -11,33 +11,8 @@
         margin: 10px 0;
     }
 
-    .product {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .product img {
-        max-width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .product h3 {
-        margin-bottom: 10px;
-    }
-
     .menu-toggle {
         display: block;
-    }
-
-    fieldset {
-        width: auto;
-        margin-left: 5px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 250px;
     }
 
     .newsletter-form {
@@ -46,11 +21,7 @@
         
     }   
 
-    input[type="number"] {
-        width: 60px;
-        margin-bottom: 5px;
-    
-    }
+  
 
 }
 
