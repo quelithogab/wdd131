@@ -203,6 +203,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+
 .product {
     border: 1px solid #ddd;
     padding: 15px;
@@ -226,18 +227,18 @@ h2 {
 }
 
 input[type="number"] {
-    width: 70px;
+    width: 65px;
 }
 
 button {
     font-family: var(--paragraph-font);
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     border: none;
-    padding: 5px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 4px;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 #cart p {

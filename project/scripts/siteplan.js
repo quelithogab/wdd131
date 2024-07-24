@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // The weather
-const apiKey = '67ab91ce2316c9e9cb76fbc0f7b4ab72'; // Replace with your actual API key
-const city = 'Haiti'; // Replace with the desired city name
+const apiKey = '67ab91ce2316c9e9cb76fbc0f7b4ab72'; 
+const city = 'Haiti'; 
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 // Function to calculate wind chill factor in metric units
