@@ -11,7 +11,6 @@ body {
     --paragraph-font: "Gabriela", serif;
 }
    
-
 header {
     background-color: var(--primary-color);
     color: white;
@@ -66,7 +65,6 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -183,7 +181,6 @@ nav.open ul {
 
 section {
     padding: 20px;
-    margin: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -321,14 +318,11 @@ footer {
     nav ul {
         flex-direction: row;
         justify-content: right;
+        display: flex;
     }
 
     nav li {
         margin: 0 1rem;
-    }
-
-    nav ul {
-        display: flex;
     }
 
     .weather {
