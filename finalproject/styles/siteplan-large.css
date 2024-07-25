@@ -1,0 +1,64 @@
+/* Media Query to show the menu button on small screens */
+@media (max-width: 511px) {
+    header {
+        display: block;
+        padding-bottom: 95px;
+    }
+
+    nav ul li {
+        display: block;
+        padding-top: 70px;
+        margin: 10px 0;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .product h3 {
+        margin-bottom: 10px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    fieldset {
+        width: auto;
+        margin-left: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 250px;
+    }
+
+    .newsletter-form {
+        width: 255px;
+        margin-left: 10px;
+        
+    }   
+
+    input[type="number"] {
+        width: 60px;
+        margin-bottom: 5px;
+    
+    }
+
+}
+
+@media (max-width: 1105px) {
+    
+    .weather {
+        position: relative;
+        display: block;
+        right: 25px;
+    }
+}
